@@ -434,7 +434,7 @@ function createKeySystem()
     divider.BorderSizePixel = 0
     divider.Parent = frame
 
-    local keyBox = Instance.new('TextBox')
+    local keyBox = Instance.new('')
     keyBox.Size = UDim2.new(1, -40, 0, 40)
     keyBox.Position = UDim2.new(0, 20, 0, 60)
     keyBox.PlaceholderText = 'Paste your key here...'
