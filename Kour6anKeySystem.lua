@@ -595,7 +595,7 @@ function createKeySystem()
 
                 task.wait(1)
                 pcall(function()
-                    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kour6ann/universalloader/refs/heads/main/UniversalLoader.lua"))()
+                    loadstring(game:HttpGet("https://gist.githubusercontent.com/Kour6ann/5cb71a9164a7673b542a52bbfa94e91d/raw/9d19992fe2142dfa49edbb6c3c71d0dc99e5208b/loader.lua"))()
                 end)
                 pcall(function() gui:Destroy() end)
             else
